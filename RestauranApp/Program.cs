@@ -41,8 +41,11 @@ namespace RestauranApp
             Double averageRating = restaurants.Average(r => r.Rating);
             Console.WriteLine($"จำนวนร้านอาหารทั้งหมด {toralrestaurants} ร้าน ");
             Console.WriteLine($"คะเเนนเฉลี่ยรวม {averageRating:F2} คะเนน ");
-            Console.WriteLine("\nกดปุ่มใดๆก็ได้เพื่อปิดโปรเเกรม....");
+
+            Console.WriteLine("\nกดปุ่มใดๆก็ได้เพื่อปิดโปรเเกรddadaม....");
             Console.ReadKey();
+            Console.WriteLine("--------------------------------------------------------------");
+            Console.WriteLine("--------------------------------------------------------------");
         }
     }
 }
